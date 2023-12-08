@@ -41,6 +41,9 @@ li {
     background: center / cover no-repeat url("../image/sample_key.jpg");
     font-family: "Noto Serif JP", serif;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .key h1 {
@@ -189,6 +192,7 @@ color: #fff;
  .coffee_menu {
     background: #fff;
     padding: 20px;
+    margin: 20px;
  }
 
  .coffee_menu_list_item {
